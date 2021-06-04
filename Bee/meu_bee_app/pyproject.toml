@@ -1,0 +1,34 @@
+[tool.briefcase]
+project_name = "papodedev"
+bundle = "com.saidino.beeware"
+version = "0.0.1"
+url = "https://beeware.saidino.com/meu_bee_app"
+license = "MIT license"
+author = 'Saidino Pythonist'
+author_email = "saidino@beeware.saidino.com"
+
+[tool.briefcase.app.meu_bee_app]
+formal_name = "papo de dev"
+description = "My pysideApp"
+icon = "src/meu_bee_app/resources/meu_bee_app"
+sources = ['src/meu_bee_app']
+requires = [
+    'pyside2==5.13.0',]
+
+
+[tool.briefcase.app.meu_bee_app.macOS]
+requires = []
+
+[tool.briefcase.app.meu_bee_app.linux]
+requires = []
+system_requires = []
+
+[tool.briefcase.app.meu_bee_app.windows]
+requires = []
+
+# Mobile deployments
+[tool.briefcase.app.meu_bee_app.iOS]
+requires = []
+
+[tool.briefcase.app.meu_bee_app.android]
+requires = []

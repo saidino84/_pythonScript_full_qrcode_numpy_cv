@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.3
+Name: meu_bee_app
+Formal-Name: papo de dev
+App-ID: com.saidino.beeware.meu_bee_app
+Version: 0.0.1
+Home-page: https://beeware.saidino.com/meu_bee_app
+Author: Saidino Pythonist
+Author-email: saidino@beeware.saidino.com
+Summary: My pysideApp

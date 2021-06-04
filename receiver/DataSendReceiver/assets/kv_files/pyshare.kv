@@ -1,0 +1,122 @@
+
+NavigationLayout:
+    id:nav_layout
+    
+    Manager:
+        id:manager
+        MainScreen:
+            name:'main_screen'
+            id:main_screen
+        
+        ReceiveScreen:
+            name:'receiver_screen'
+            id:receiver_screen
+        SenderScreen:
+            name:'sender_screen'
+            id:sender_screen
+        
+<SenderScreen>:
+    id:sender_screen
+    MDBoxLayout:
+        orientation:'vertical'
+        MDToolbar:
+            pos_hint:{'top':1}
+            title:'Envio'
+            left_action_items:[['arrow-left',lambda x:root.manager.change_screen('main_screen')]]
+            right_action_items:[['arrow-up-circle',lambda x:sender_screen.show_dialog_message('Sender',"Not implemented")]]
+
+        MDBoxLayout:
+            orientation:'vertical'
+            pos_hint:{'y':.9}
+            size_hint:1,.9
+            md_bg_color:[.3,.44,.21,1]
+            BoxLayout:
+                size_hint:1,None
+                height:self.minimum_height
+                ScrollView:
+                    MDList:
+                        id:send_list_receive
+                        #aceita icon esquerda e direita
+                        TwoLineAvatarIconListItem:
+                            text:'linguage python'
+                            secondary_text:'apredido com sucesso 100%'
+                            IconLeftWidget:
+                                icon: "language-python"
+                            IconRightWidget:
+                                icon:'check-circle' #check-circle-outline,check-underline-circle
+
+                        TwoLineAvatarIconListItem:
+                            text:'github'
+                            secondary_text:'sending file in 89%'
+                            IconLeftWidget:
+                                icon:'github-circle'
+                            IconRightWidget:
+                                icon:'checkbox-blank-circle'
+            MDLabel:
+                text:'Dados A Enviar'
+                color:app.theme_cls.primary_color
+                size_hint:1,None
+                    
+            RecycleView:
+                id:rv
+                viewclass:'DadosEnviados'
+                RecycleBoxLayout:
+                    default_size:None,dp(56)
+                    default_size_hint:1,None
+                    size_hint_y:None
+                    height:self.minimum_height
+                    orientation:'vertical'
+                    
+                    
+                    #MDList:
+                    #    id:send_list_sent
+                    #    #aceita icon esquerda
+                    #   TwoLineAvatarListItem:
+                    #       text: "Two-line item with avatar"
+                    #       secondary_text: "Secondary text here"
+                    #       #ImageLeftWidget:
+                    #       #   source:str
+                    #       IconLeftWidget:
+                    #           icon: "briefcase-account"
+
+<DadosEnviados>:
+    text:self.nome
+    secondary_text:self.status
+    IconLeftWidget:
+        icon:root.icon
+
+
+
+        
+<ReceiveScreen>:
+    id:receive_screen
+    name:'receive_screen'
+    MDBoxLayout:
+        orientation:'vertical'  
+        MDToolbar:
+            title:'Recepcao'
+            pos_hint:{'y':1} 
+            pos_hint:{'top':1}
+            left_action_items:[['arrow-left',lambda x:root.manager.change_screen('main_screen')],['menu',lambda x:None]]
+            right_action_items:[['arrow-down-circle',lambda x:root.manager.get_screen('sender_screen').show_dialog_message('Receiver',"Ver arquivos baixados")]]
+
+        MDBoxLayout:
+<MainScreen>:
+    btn_send:send
+    id:mainscreen
+    name:'mainscreen'
+    #on_enter:
+    #    self.start_target_lesson()
+    MDRoundFlatButton:
+        text:'send'
+        pos_hint:{'x':.2,'y':.5}
+        id:send
+        on_release:
+            #self.parent.start_target_lesson(self,"send")
+            self.parent.manager.current="sender_screen"
+    MDRoundFlatButton:
+        text:'receive'
+        pos_hint:{'x':.6,'y':.5}
+        on_release:
+            #self.parent.start_target_lesson(self,"receiver")
+            self.parent.manager.current="receiver_screen"

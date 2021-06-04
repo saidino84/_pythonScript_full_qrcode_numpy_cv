@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modelo</title>
+     <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<h3 color=#ffffff class="title-app">Login Forma</h3>
+<div>
+    <form class="header">
+        <input type="button" name="btn" value="sair" class="btn" />
+        <input type="button" name="btn" value="ir" class="btn"/>
+        <input type="button" name="btn" value="bazar" class="btn"/>
+    </form>
+</div>
+<form method="post" class="formulario" action="http://127.0.0.1:8080/login" method="POST">
+    <input type="text" name="user_name"  class="inputs" placeholder="user name require "/>
+    <br/>
+    <br/>
+    <input  type="password" name="user_password" class="inputs" placeholder="user password require "/>
+    <br/>
+    <br/>
+    <button type="submit" name="btn_add"  class="btn_send">Enviar</button>
+    <br/>
+    <h2 id="user_result">...</h2>
+</form>
+
+
+<script>
+    var elem=document.getElementsByClassName("btn")
+
+     console.log(elem.elements)
+</script>
+</body>
+</html>

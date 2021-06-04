@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54df2ffb-9da9-4ff6-8ef0-2189f7c32a57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pythonScripts.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject01/.idea/pyproject01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject01/Sockets_lissons/FileTransFerer_kivymd/icons/bg_claudia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject01/Sockets_lissons/FileTransFerer_kivymd/icons/claudia_iamge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject01/Sockets_lissons/FileTransFerer_kivymd/screens/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject01/Sockets_lissons/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject01/__init__.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="5ad101b6-3c42-4163-90db-70d0157eb971" />
+  <component name="ProjectId" id="1j32Fu7WgrSv5dyACmWWZ5Ghy6D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pyproject01/Sockets_lissons/FileTransFerer_kivymd/icons" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pyproject01/Sockets_lissons/FileTransFerer_kivymd/icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pyproject01/Sockets_lissons/FileTransFerer_kivymd/screens" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonScripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyproject01/Sockets_lissons/FileTransFerer_kivymd" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyproject01/Sockets_lissons/FileTransFerer_kivymd/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sender" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonScripts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyproject01/Sockets_lissons/FileTransFerer_kivymd/screens" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyproject01/Sockets_lissons/FileTransFerer_kivymd/screens/sender.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.sender" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54df2ffb-9da9-4ff6-8ef0-2189f7c32a57" name="Default Changelist" comment="" />
+      <created>1603018353715</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603018353715</updated>
+      <workItem from="1603018354758" duration="723000" />
+      <workItem from="1603035955245" duration="5142000" />
+      <workItem from="1603052706649" duration="6101000" />
+      <workItem from="1603060230803" duration="3905000" />
+      <workItem from="1603093160756" duration="664000" />
+      <workItem from="1603183267101" duration="1455000" />
+      <workItem from="1603341654201" duration="1188000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="662" height="809" key="GridCell.Tab.0.bottom" timestamp="1603184797163">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="706" height="809" key="GridCell.Tab.0.bottom/0.32.1600.868/1600.0.1280.1024@1600.0.1280.1024" timestamp="1603089645405" />
+    <state width="662" height="809" key="GridCell.Tab.0.bottom/0.32.1600.868@0.32.1600.868" timestamp="1603184797163" />
+    <state width="662" height="809" key="GridCell.Tab.0.center" timestamp="1603184797162">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="706" height="809" key="GridCell.Tab.0.center/0.32.1600.868/1600.0.1280.1024@1600.0.1280.1024" timestamp="1603089645405" />
+    <state width="662" height="809" key="GridCell.Tab.0.center/0.32.1600.868@0.32.1600.868" timestamp="1603184797162" />
+    <state width="662" height="809" key="GridCell.Tab.0.left" timestamp="1603184797162">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="706" height="809" key="GridCell.Tab.0.left/0.32.1600.868/1600.0.1280.1024@1600.0.1280.1024" timestamp="1603089645405" />
+    <state width="662" height="809" key="GridCell.Tab.0.left/0.32.1600.868@0.32.1600.868" timestamp="1603184797162" />
+    <state width="662" height="809" key="GridCell.Tab.0.right" timestamp="1603184797163">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="706" height="809" key="GridCell.Tab.0.right/0.32.1600.868/1600.0.1280.1024@1600.0.1280.1024" timestamp="1603089645405" />
+    <state width="662" height="809" key="GridCell.Tab.0.right/0.32.1600.868@0.32.1600.868" timestamp="1603184797163" />
+    <state x="1903" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603036822260">
+      <screen x="1600" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1903" y="225" width="672" height="678" key="search.everywhere.popup/0.32.1600.868/1600.0.1280.1024@1600.0.1280.1024" timestamp="1603036822260" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pythonScripts$sender.coverage" NAME="sender Coverage Results" MODIFIED="1603062191244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyproject01/Sockets_lissons/FileTransFerer_kivymd/screens" />
+    <SUITE FILE_PATH="coverage/pythonScripts$main.coverage" NAME="main Coverage Results" MODIFIED="1603184796714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyproject01/Sockets_lissons/FileTransFerer_kivymd" />
+  </component>
+</project>

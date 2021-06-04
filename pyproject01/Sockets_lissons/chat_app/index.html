@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <style>
+        #nome{
+            width: 200px;
+            /* height: 40px; */
+            /* background-color: blueviolet; */
+        }
+        /* #btnn{
+            width: 200px;
+            height: 40px;
+            background-color: brown;
+            position: relative; */
+        /* } */
+    </style>    
+</head>
+<body>
+
+    <ul id="">
+        <li>lista dos programadores</li>
+        <li>lista dos estudantes de programacao assembly</li>
+        <li>lista dos crackets</li>
+
+    </ul>
+    <div>
+        <input type="text" id="nome"/>
+        <input type="button" id="btnn" value="check content"/>
+    </div>
+   
+    <script>
+        var text_context=document.getElementById("nome").innerHTML
+        document.getElementById("btnn").addEventListener('click',function(){
+            console.log(text_context)
+        })
+
+        if(text_context==""){
+            alert("oi socio digite alguma coisa")
+
+        }else{
+            console.log("finnaly you type some thing..")
+        }
+    </script>
+
+</body>
+</html>
